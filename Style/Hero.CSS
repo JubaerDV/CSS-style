@@ -1,0 +1,52 @@
+Nav ul{
+    display: flex;
+    list-style: none;
+
+}
+Nav ul li{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    padding: 20px;
+}
+Nav ul li a{
+    text-decoration: none;
+}
+
+Nav ul li:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+.Banner{
+    display: flex;
+    padding: 20px;
+    background-color: aquamarine;
+}
+Banner-container{
+flex: 1;
+width: 100%;
+padding: 20px;
+}
+.Banner-picture{
+flex: 1;
+padding: 20px;
+}
+Banner-Picture img{
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+button{
+    background-color: blueviolet;
+    cursor: pointer;
+    width: 100px;
+}
+.Banner-container button:hover{
+    background-color: red;
+    padding: 10px;
+}
+body{
+    background-color: rgb(162, 201, 235);
+    max-width: 1200px;
+    border: 1px solid red;
+}
